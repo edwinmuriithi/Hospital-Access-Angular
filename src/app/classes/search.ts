@@ -1,5 +1,7 @@
 export class Search {
     constructor(
-        public nationalId : String
+        public name :string,
+        public national_id:string,
+        public date_of_birth:string
     ){}
 }
